@@ -1,0 +1,131 @@
+  /* Start login Section */
+  body {
+    background-image: url(/images/bg-01.jpg);
+}
+.login-logo {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.log-center {
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.login-title {
+    margin-bottom: 1.3rem;
+    color: violet;
+}
+.social-login i {
+    font-size: 55px;
+    margin: 0rem .3rem;
+}
+.social-login .i-google {
+    color: crimson;
+}
+.social-login .i-facebook {
+    color: #3b5998;
+}
+.social-login .i-linkedin {
+    color: #0077b5;
+}
+
+.or-title p:before,
+.or-title p:after {
+    background-color: violet;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50px;
+    margin: 1.3rem 15px;
+}
+
+.login-form form input {
+    width: 90%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 45px;
+    border: 1px solid violet;
+}
+
+::placeholder {
+    padding-left: 1rem;
+  }
+.login-btn {
+    background-color: violet;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 50%;
+    height: 50px;
+    border-radius: 35px;
+    border: 2px solid violet;
+    margin: 1rem 0;
+    
+}
+.login-btn:hover {
+    color: violet;
+    background: none;
+}
+
+.cr-account {
+    background-color: violet;
+    width: 100%;
+    padding: 30px;
+}
+.d-account {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.d-account p {
+    align-self: center;
+}
+
+.d-account a {
+    background: var(--crimson);
+    color: var(--white);
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-left: 25px;
+    font-weight: 300;
+    border-radius: 6px;
+    border: 2px solid var(--crimson);
+    transition: all 0.3s ease;
+}
+.d-account a:hover {
+    color: var(--crimson);
+    background: none;
+}
+
+.lb {
+    display: flex;
+    justify-content: center;
+}
+.login-btn a {
+    color: white;
+}
+.login-btn:hover a {
+    color: violet;
+}
+.fgotpass:hover {
+    color: violet;
+}
+.login-form form input:focus,
+.login-form form textarea:focus {
+    outline: none;
+    border: 1px solid var(--crimson2);
+}
+  /* End login Section */

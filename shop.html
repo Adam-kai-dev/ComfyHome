@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- Googoe Fonts (Lora font) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/72722c5d6c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>ComfyHome</title>
+  </head>
+  <body>
+    <!-- Start Navbar and hero section -->
+    <div class="shop-hero">
+      <div class="nav-container" id="navContainer">
+        <div class="max-width">
+          <nav class="navbar">
+            <h1 class="nav-logo" id="navbar-logo">Comfy<span>Ho</span>me</h1>
+            <div class="menu-toggle" id="mobile-menu">
+              <!-- the next tree span for make the humburger of mobile menu -->
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+              <li><a href="index.html" class="nav-links">Home</a></li>
+              <li><a href="blog.html" class="nav-links">Blog</a></li>
+              <li><a href="about.html" class="nav-links">About Us</a></li>
+              <li><a href="contact.html" class="nav-links">contact Us</a></li>
+              <li><a href="shop.html" class="nav-links">Shop</a></li>
+              <li>
+                <a href="cart.html" class="nav-links shop-cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </li>
+              <li>
+                <a href="login.html" target="_blank" class="nav-links">Login</a>
+              </li>
+              <li>
+                <a
+                  href="signup.html"
+                  target="_blank"
+                  class="nav-links nav-links-btn"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Start Home Section -->
+      <section class="about" id="about">
+        <div class="max-width">
+          <div class="about-content">
+            <div class="about-1">Welcome To Our</div>
+            <div class="about-2">Shop</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End Navbar and hero section -->
+
+    <!-- Start Blog sec -->
+    <section class="shop-sec">
+      <div class="shop-max-width">
+        <div class="shop-wrapper">
+          <div class="shop-sidebar">
+            <!-- Start Search -->
+            <div class="sidebar-search">
+              <form action="">
+                <input type="text" placeholder="Search" />
+              </form>
+            </div>
+
+            <!-- Start Category -->
+            <div class="prod-cat-sec">
+              <h5>Category</h5>
+              <ul class="cat-items">
+                <li><a href="/shop.html">All</a></li>
+                <li><a href="/shop.html">Furniture</a></li>
+                <li><a href="/shop.html">Home Repair</a></li>
+                <li><a href="/shop.html">Home Cleaning</a></li>
+                <li><a href="/shop.html">Office Cleaning</a></li>
+                <li><a href="/shop.html">Moving Services</a></li>
+                <li><a href="/shop.html">Painting Services</a></li>
+              </ul>
+            </div>
+
+            <!-- Start Color -->
+            <div class="prod-clr">
+              <h5>Colors</h5>
+              <div class="clr-items">
+                <a class="all-clr" href="/shop.html">All</a>
+                <button
+                  name="color"
+                  class="color-btn"
+                  data-color="#ff0000"
+                  style="background: rgb(255, 0, 0)"
+                ></button>
+                <button
+                  name="color"
+                  class="color-btn"
+                  data-color="#00ff00"
+                  style="background: rgb(0, 255, 0)"
+                ></button>
+                <button
+                  name="color"
+                  class="color-btn"
+                  data-color="#0000ff"
+                  style="background: rgb(0, 0, 255)"
+                ></button>
+                <button
+                  name="color"
+                  class="color-btn"
+                  data-color="#000"
+                  style="background: rgb(0, 0, 0)"
+                ></button>
+                <button
+                  name="color"
+                  class="color-btn"
+                  data-color="#ffb900"
+                  style="background: rgb(255, 185, 0)"
+                ></button>
+              </div>
+            </div>
+
+            <div class="sidebar-price">
+              <h5>Price</h5>
+              <div class="slidecontainer">
+                <p class="paraprice">$<span id="price"></span></p>
+                <input
+                  type="range"
+                  min="100"
+                  max="3000"
+                  value="50"
+                  class="slider"
+                  id="myRange"
+                />
+                <div class="freeshipping">
+                  <span>Free Shipping</span
+                  ><input type="checkbox" class="input-box" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shop-prod">
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod5.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod12.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod6.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod11.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod3.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod10.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod7.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod8.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+
+            <div class="shop-items">
+              <div class="shop-img-sec">
+                <a class="shop-img" href="single-product.html"
+                  ><img src="images/shop/prod9.jpg" alt=""
+                /></a>
+              </div>
+
+              <footer>
+                <h5>product title</h5>
+                <h5>300$</h5>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Footer Section -->
+    <footer class="">
+      <div class="footer-sec1">
+        <div class="max-width">
+          <div class="footer-items">
+            <div class="footer-about">
+              <div class="f-logo">
+                <a href="/">
+                  <h3 class="footer-title">ComfyHome</h3>
+                </a>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
+                consequuntur quos. Esse iure voluptates laboriosam!
+              </p>
+            </div>
+
+            <div class="footer-about">
+              <h3 class="footer-title">Links</h3>
+              <ul class="footer-links">
+                <li class="link"><a href="/about.html">About Us</a></li>
+                <li class="link"><a href="/contact.html">Contact Us</a></li>
+                <li class="link"><a href="/shop.html">Shop</a></li>
+                <li class="link"><a href="/signup.html">Sign Up</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-about">
+              <h3 class="footer-title">Follow us</h3>
+              <ul class="social-m">
+                <li>
+                  <a href="https://youtube.com"
+                    ><i class="fa fa-youtube"
+                      ><span class="social-item">Youtube</span></i
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="https://facebook.com"
+                    ><i class="fa fa-facebook"
+                      ><span class="social-item">Facebook</span></i
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="https://twitter.com"
+                    ><i class="fa fa-twitter"
+                      ><span class="social-item">Twitter</span></i
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="https://instagram.com"
+                    ><i class="fab fa-instagram-square"
+                      ><span class="social-item">Instagram</span></i
+                    ></a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-about">
+              <h3 class="footer-title">Contacts</h3>
+              <ul class="contact-info">
+                <li>
+                  <i class="fas fa-map-marker-alt"
+                    ><span class="social-item">USA, New York Cabell</span></i
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-phone"
+                    ><span class="social-item">Tel: +1 804-516-6077</span></i
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-fax"
+                    ><span class="social-item">Fax: +1 802-927-5077</span></i
+                  >
+                </li>
+                <li>
+                  <i class="fa fa-envelope"
+                    ><span class="social-item">comfyhome@gmail.com</span></i
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-sec2">
+        <span
+          >Created By <a href="/">ComfyHome</a> |
+          <span class="far fa-copyright"></span> 2021 All rights reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
